@@ -1,5 +1,6 @@
 # 📝 Feedback App
 Made a responsive Feedback collection web app built with **React (Vite)**, **Tailwind CSS**, and **Lucide React** icons.
+visit feedbacknow.netlify.app
 
 
 ## 🔧 Features
