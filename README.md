@@ -1,12 +1,43 @@
-# React + Vite
+# 📝 Feedback App
+Made a responsive Feedback collection web app built with **React (Vite)**, **Tailwind CSS**, and **Lucide React** icons.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 🔧 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Made modern UI using Tailwind CSS
+- 🌗 Dark mode toggle (with Lucide icons)
+- 📨 Feedback form with:
+  - Full Name
+  - Email (with validation)
+  - Feedback message
+  - Submit button
+- 🔐 Admin View:
+  - Toggle to view all submitted feedbacks
+  - Feedback displayed in styled cards (not raw JSON)
+- 📌 Sticky footer watermark with your name and submission info
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/Aryan01903/feedback-app.git
+cd feedback-app
+
+
+🙋‍♂️ Author
+Aryan Kumar Shrivastav
+Feedback App Submission
+
+Made with 💻 using React + Tailwind.
