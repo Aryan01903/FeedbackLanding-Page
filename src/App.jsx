@@ -2,6 +2,7 @@ import { useState } from "react";
 import FeedbackForm from "./Components/FeedbackForm/FeedbackForm";
 import AdminView from "./Components/AdminView/AdminView";
 import DarkModeToggle from "./Components/DarkToggle/darkToggle";
+import Footer from "./Components/Footer/Footer"
 function App() {
   const [showAdmin, setShowAdmin] = useState(false);
 
@@ -19,6 +20,8 @@ function App() {
         </button>
       </div>
       {showAdmin ? <AdminView /> : <FeedbackForm />}
+
+      <Footer/>
     </div>
   );
 }
